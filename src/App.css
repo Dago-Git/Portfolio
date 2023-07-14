@@ -546,6 +546,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-imgbx {
+    
     position: relative;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -553,6 +554,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     overflow: hidden;
+    margin-top: 10px;
     margin-bottom: 24px;
     height: 260px;
 }

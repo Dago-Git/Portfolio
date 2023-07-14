@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-import colorSharp from '../assets/img/colorSharp.jpg';
+import colorSharp from '../assets/img/colorSharp.PNG';
+import colorSharp2 from '../assets/img/colorSharp2.PNG';
+import colorSharp3 from '../assets/img/colorSharp3.PNG';
 import ProjectCards from './ProjectCards';
 import headerImg from '../assets/img/headerImg.svg';
 
@@ -13,28 +15,14 @@ export const Projects = () => {
         {
             title: "Business Starup",
             description: "Design & Development",
-            imgUrl: colorSharp,
+            imgUrl: colorSharp2,
         },
         {
             title: "Business Starup",
             description: "Design & Development",
-            imgUrl: colorSharp,
+            imgUrl: colorSharp3,
         },
-        {
-            title: "Business Starup",
-            description: "Design & Development",
-            imgUrl: colorSharp,
-        },
-        {
-            title: "Business Starup",
-            description: "Design & Development",
-            imgUrl: colorSharp,
-        },
-        {
-            title: "Business Starup",
-            description: "Design & Development",
-            imgUrl: colorSharp,
-        },
+       
     ]
     return ( 
         <section className = "project"id = "project">
@@ -70,7 +58,7 @@ export const Projects = () => {
                     </Col> 
                 </Row> 
             </Container> 
-            <img className = "background-image-right" src = { colorSharp } ></img> 
+     
         </section>
     );
 };
